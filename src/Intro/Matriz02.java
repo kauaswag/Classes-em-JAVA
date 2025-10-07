@@ -8,9 +8,9 @@ public class Matriz02 {
                 { 7, 8, 9 }
         };
         System.out.println("Elementos da matriz: ");
-        for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < matriz[i].length; j++) {
-                System.out.print(matriz[i][j] + " ");
+        for (int[] matriz1 : matriz) {
+            for (int j = 0; j < matriz1.length; j++) {
+                System.out.print(matriz1[j] + " ");
             }
             System.out.println();
         }

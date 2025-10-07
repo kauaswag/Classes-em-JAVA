@@ -12,5 +12,6 @@ public class Vetor {
         int[] vetor2 = { 1, 2, 3, 4, 5 };
         System.out.println("Conteúdo do vetor [0]: " + vetor[0]);
         System.out.println("Conteúdo de vetor2[4]: " + vetor2[4]);
+
     }
 }
